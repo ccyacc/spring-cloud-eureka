@@ -1,10 +1,12 @@
-package com.cc.controller;
+package com.cc.springcloudconsumer.controller;
 
-import com.cc.remote.HelloRemote;
+import com.cc.springcloudconsumer.remote.HelloRemote;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class ConsumerController {
     @Autowired
     private HelloRemote helloRemote;
