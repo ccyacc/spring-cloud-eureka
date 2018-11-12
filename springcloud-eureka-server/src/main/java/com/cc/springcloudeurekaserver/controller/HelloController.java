@@ -1,4 +1,4 @@
-package com.cc.controller;
+package com.cc.springcloudeurekaserver.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -9,6 +9,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String index(@RequestParam String name){
-        return "hello" + name + ",this is first messge";
+        return "hello," + name + ",this is one ";
     }
 }
