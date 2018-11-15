@@ -26,16 +26,17 @@
 	</properties>
 
 	<dependencies>
+		<!-- eureka 依赖 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-		</dependency><!-- eureka 依赖 -->
-
+		</dependency>
+		<!-- spring-boot test 依赖 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency><!-- spring-boot test 依赖 -->
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
