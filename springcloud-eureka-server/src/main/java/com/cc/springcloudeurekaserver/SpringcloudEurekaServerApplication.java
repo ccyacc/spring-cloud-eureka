@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
+//注册为客户端的注解
 @EnableDiscoveryClient
 public class SpringcloudEurekaServerApplication {
 
